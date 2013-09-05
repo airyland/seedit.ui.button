@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>title</title>
+
+    <link rel="stylesheet" href="../src/style.css">
+    <style>
+    body {
+        padding: 50px;
+    }
+    </style>
+</head>
+
+<body>
+
+    <div class="group_switch mod_header">
+        <!--待选择区域-->
+        <div id="list_condition">
+            <div class="group group_show" style="">
+                <strong class="lable">版本：</strong>
+                <span id="div_version">
+                    <div class="ui_buttons">
+                        <button class="button" value="-1" title="全部" name="version" id="version_0">全部</button>
+                        <button class="button current" value="1.5.0" title="1.5.0" name="version" id="version_1">1.5.0</button>
+                        <button class="button" value="1.4.2" title="1.4.2" name="version" id="version_2">1.4.2</button>
+                        <button class="button" value="1.4.1" title="1.4.1" name="version" id="version_3">1.4.1</button>
+                        <button class="button" value="1.4.0" title="1.4.0" name="version" id="version_4">1.4.0</button>
+                        <button class="button" value="3.0.0" title="3.0.0" name="version" id="version_5">3.0.0</button>
+                        <button class="button" value="-" title="未知" name="version" id="version_6">未知</button>
+                    </div>
+                </span>
+            </div>
+        </div>
+        <!--已选-->
+        <!-- <div class="group group_hide">                 
+                        <div class="selected-condition" id="selected_condition">
+                            <dl class="cf condition">
+                                <dt>已选</dt>
+                                <dd id="dd_selected">
+                                </dd>
+                            </dl>
+                        </div>
+                    </div> -->
+        <!-- <a href="javascript:;" class="toggle" id="btn_ctrlPanel">显示/收起</a> -->
+    </div>
+
+
+
+    <button class="button  button_primary" id="btn_compare">按时间对比</button>
+
+
+    <div class="group group_show" style="">
+        <strong class="lable">用户群：</strong>
+        <button class="button" id="btn_user_group">
+            <span>全部</span><i class="icon_menu"></i>
+        </button>
+    </div>
+
+
+    <div class="sub_menu">
+        <button class="button current el_pay">未付费用户</button>
+        <button class="button current el_active" style="/* display:none; */">高频活跃用户</button>
+        <div class="date" id="div_date" style="display:inline-block;float:none;">
+            <span class="date_title" id="date">2013-09-02</span>
+            <a class="opt_sel" id="input_trigger" href="#">
+                <i class="i_orderd"></i>
+            </a>
+        </div>
+        <label class="contrast" for="needCompare_1378190398259" style="display: none;">
+            <input type="checkbox" class="pc" name="needCompare_1378190398259" id="needCompare_1378190398259" value="1" disabled="disabled">对比</label>
+        <div class="ta_date" id="div_compare_date" style="display: none;">
+            <span name="dateCompare" id="dateCompare" class="date_title" style="display: none;"></span>
+            <a class="opt_sel" id="compare_trigger" href="#"> <i class="i_orderd"></i> 
+            </a>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
