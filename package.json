@@ -1,0 +1,20 @@
+{
+  "name": "button",
+  "description": "button style",
+  "version": "0.0.1",
+  "homepage": "https://github.com/airyland/seedit.ui.button",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/airyland/seedit.ui.button.git"
+  },
+  "bugs": {
+    "url": "https://github.com/airyland/seedit.ui.button/issues"
+  },
+  "family": "seedit",
+  "spm": {
+    "alias": {},
+    "output": [
+      "button.css"
+    ]
+  }
+}
